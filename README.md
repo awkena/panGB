@@ -1,2 +1,2 @@
 # panGB
-Miscellaneous data for the panGenoBreedr package
+Miscellaneous data for the panGenomeBreedr package
