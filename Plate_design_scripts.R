@@ -67,7 +67,7 @@ build_min_sample_list <- function(
   ## 5) Loop per variant: Categorize available inventory into Reference vs. Alternate alleles for each priority tier
   by_variant <- list()
   
-  for (v in 1:length(variant_cols)) {
+  for (v in seq_along(variant_cols)) {
     temp <- variant_summary_inventory[c(metadata_columns, variant_cols[v])]
     names(temp)[4] <- "Allele"
     
