@@ -7,7 +7,7 @@
 #' @param min_req An integer specifying the minimum number of samples required per variant and allele class (default: 3).
 #' @param tech_rep An integer specifying the number of technical replicates to include for each sample (default: 2).
 #' @param het_tech_rep An integer specifying the number of technical replicates to include for artificial heterozygous samples (default: 3).
-#' @param blank_reps An integer specifying the number of empty wells to include for each sample (default: 2). library(shiny)
+#' @param blank_reps An integer specifying the number of empty wells to include for each sample (default: 2).
 #' @param sorghum_PCIL_donors A character vector of PI numbers for PCIL donor accessions.
 #' @param sorghum_PCIL_recurrent_parents A character vector of PI numbers for PCIL recurrent parent accessions.
 #' @param sorghum_de_novo_references A character vector of PI numbers for de novo reference accessions.
