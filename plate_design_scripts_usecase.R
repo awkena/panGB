@@ -157,7 +157,7 @@ plates_filled_manual_complete <- fill_plate_samples(
   randomization = TRUE
 )
 
-# Export result as an excel file.
+# Export result as CSV files.
 export_plate_layouts_to_csv(
   plates_filled_obj = plates_filled_manual_complete,
   sample_recommendation_obj = sample_recommendation_manual
